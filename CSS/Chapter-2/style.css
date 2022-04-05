@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.red{
+    background: red;
+    color: white;
+}
+.green{
+    background: green;
+    color: aqua;
+}
+body{
+    /* background-image: url(flower.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 2px red; */
+}
+.container{
+    width: 340px;
+    background-image: url(flower.jpg);
+    border: 2px solid red;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:  rgb(0, 0, 0);
+    
+}
