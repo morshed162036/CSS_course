@@ -10,18 +10,45 @@
     background: green;
     color: aqua;
 }
-body{
-    /* background-image: url(flower.jpg);
+/* body{
+    background-image: url(flower.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-    border-radius: 2px red; */
-}
+    border-radius: 2px red;
+ } */
+
 .container{
     width: 340px;
-    background-image: url(flower.jpg);
+    color:  rgb(255, 255, 255);
     border: 2px solid red;
+    /* background-image: url(flower.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    color:  rgb(0, 0, 0);
+    background-size: 63px 45px;
+    background-position: top center;
+    background-attachment: fixed; */
+    background: url(image.jpg) no-repeat ;
+    background-size: cover;
     
+}
+
+li{
+    background: black;
+    color: white;
+    width: 334px;
+}
+.main{
+    /* background-color: red;
+    color: aliceblue; */
+    color: red;
+}
+.bg{
+    width: 344px;
+    height: 1344px;
+    background-image: url(flower.jpg);
+    background-repeat: no-repeat;
+    background-color: aqua;
+    background-size: 341px 341px;
+    background-attachment: local;
+
 }
